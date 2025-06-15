@@ -1,0 +1,6 @@
+{
+  "name": "colpander",
+  "description": "Add a possibility for collapsing|expanding all shell windows for better navigation",
+  "uuid": "colpander@idk.what.com",
+  "shell-version": ["45", "46"]
+}
