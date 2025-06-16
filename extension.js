@@ -14,7 +14,7 @@ const Indicator = GObject.registerClass(
         _init(extension) {
             super._init(0.0, _('Colpander'));
 
-            const iconPath_wizard_down = extension.path + '/icons/wizard_down.svg';
+            const iconPath_wizard_down = extension.path + '/icons/wizard_down.png';
 
             const iconFile_wizard_down = Gio.File.new_for_path(iconPath_wizard_down);
             const customIcon_wizard_down = Gio.FileIcon.new(iconFile_wizard_down);
